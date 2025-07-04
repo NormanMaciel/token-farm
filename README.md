@@ -46,13 +46,13 @@ npx hardhat compile
 
 ### 4. Desplegar a una red local o testnet
 
-## Red local (Hardhat):
+#### Red local (Hardhat):
 ```bash
 npx hardhat node
 npx hardhat run scripts/deploy.ts --network localhost
 ```
 
-## Sepolia u otra red:
+#### Sepolia u otra red:
 Asegurate de tener .env con tu clave privada y API de Alchemy o Infura. Puedes usar el .envEjemplo como ayuda.
  ```bash
 npx hardhat run scripts/deploy.ts --network sepolia
@@ -79,7 +79,7 @@ npx hardhat test
 ```
 
 
-### 📁 Estructura del proyecto
+## 📁 Estructura del proyecto
  ```bash
 
 .
@@ -92,21 +92,21 @@ npx hardhat test
 ├── package.json         # Dependencias y scripts
 ```
 
-### 📄 Contratos
+## 📄 Contratos
 - DAppToken.sol: Token de recompensas (ERC-20)
 
 - LPToken.sol: Token simulado para staking
 
 - TokenFarm.sol: Lógica de staking, retiro y recompensas
 
-### 📜 Licencia
+## 📜 Licencia
 Este proyecto está licenciado bajo MIT.
 
-### ✨ Autor
+## ✨ Autor
 Norman Maciel  – https://github.com/NormanMaciel
 
 
-### 🙏 Agradecimientos
+## 🙏 Agradecimientos
 
 Quiero expresar mi sincero agradecimiento a:
 
