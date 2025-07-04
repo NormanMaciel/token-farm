@@ -1,0 +1,31 @@
+{
+  "name": "token-farm",
+  "version": "1.0.0",
+  "description": "Proyecto DeFi simple de Token Farm",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NormanMaciel/token-farm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NormanMaciel/token-farm/issues"
+  },
+  "homepage": "https://github.com/NormanMaciel/token-farm#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "hardhat": "^2.25.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^17.0.1"
+  }
+}

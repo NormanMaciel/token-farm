@@ -1,0 +1,17 @@
+{
+  "DAppToken": {
+    "address": "0x481b072cd712b105EB1604c4deB093f67EbeAe87",
+    "args": ["0x706F944F2da7e87dc739a9329D27EA3cDb5dD0a6"]
+  },
+  "LPToken": {
+    "address": "0x3533425C45dE10588300b19f346D5eA3F9ee08F2",
+    "args": ["0x706F944F2da7e87dc739a9329D27EA3cDb5dD0a6"]
+  },
+  "TokenFarm": {
+    "address": "0xb956ACf9e21E9fFCC22b6b2e7Ef3Fd6F3935EFcf",
+    "args": [
+      "0x481b072cd712b105EB1604c4deB093f67EbeAe87",  
+      "0x3533425C45dE10588300b19f346D5eA3F9ee08F2"   
+    ]
+  }
+}
